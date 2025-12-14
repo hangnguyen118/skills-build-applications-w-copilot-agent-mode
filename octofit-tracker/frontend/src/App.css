@@ -1,0 +1,90 @@
+/* App.css - Octofit Tracker custom styles */
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #fff !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(131, 56, 236, 0.07);
+}
+
+.table thead th {
+  background: #3a86ff;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0eafc;
+}
+
+.btn-primary, .btn-success, .btn-danger, .btn-warning {
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.08);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #1b9aaa 100%);
+}
+
+.btn-danger {
+  background: linear-gradient(90deg, #ff006e 0%, #fb5607 100%);
+}
+
+.btn-warning {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3a86ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #8338ec;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffbe0b;
+  text-decoration: underline;
+}
