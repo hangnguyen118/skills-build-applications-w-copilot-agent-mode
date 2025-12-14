@@ -1,7 +1,10 @@
 .DS_Store
 
 # Virtual Environment
+# Generic virtual environments
 venv
+# Explicit backend virtual env
+octofit-tracker/backend/venv/
 
 # octofit tracker app
 # octfit-tracker
